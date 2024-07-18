@@ -1,0 +1,54 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/public/hot
+/public/storage
+/public/vendor
+/storage/*.key
+/.env
+/.env.*
+/.env.backup
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+/nova-components
+.env.testing
+/config/test/test.yaml
+/.vscode
+
+# Ignore files created by popular IDEs
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Laravel Mix
+/public/js/*.js
+/public/js/*.js.map
+/public/css/*.css
+/public/css/*.css.map
+
+# Cache and logs
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+
+# Composer and NPM
+/composer.lock
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+
+# Miscellaneous
+/npm-debug.log
+yarn-error.log
+.DS_Store
+Thumbs.db
+*.swp
